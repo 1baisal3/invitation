@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Marck+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Marck+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Marck+Script&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner {
+    width: 100%;
+    height: 2800px;
+    background: url(https://i.pinimg.com/564x/b3/cc/89/b3cc89412f79a9d385442077d9c84dfd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_name {
+    width: 100%;
+    height: 790px;
+    background: url(https://i.pinimg.com/564x/bd/52/02/bd52028f24f3cc385f8df84045cb050e.jpg);
+    pointer-events: none;
+    border-radius: 0 0 35px 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block_grad {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_name h2 {
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.text {
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    align-items: center;
+    display: flex;
+}
+
+.block_name img {
+    width: 50px;
+    height: 50px;
+}
+
+.block_time {
+    width: 385px;
+    height: 1930px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* body {
+    text-align: center;
+    padding: 70px 50px;
+    background: #0D1A29;
+    font-family: "Helvetica Neue", "Open Sans", helvetica, arial, sans-serif;  
+  } */
+.line1 {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+}
+
+.text_gosti {
+    font-family: "Lobster", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text_gosti h2 {
+    font-size: 40px;
+}
+
+.text_gosti p {
+    font-size: 17px;
+    width: 305px;
+}
+
+.block_time img {
+    width: 355px;
+}
+
+.block_time p {
+    font-family: "Lobster", serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.block_time h3 {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+}
+
+.timerrr {
+    background: url(https://i.pinimg.com/564x/8e/af/ab/8eafab165b1d31fb32195cda33f686ad.jpg);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dosvad {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 140px;
+}
+
+.dosvad h2 {
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#timer {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+    color: black;
+    display: flex;
+
+    div {
+        display: inline-block;
+        min-width: 90px;
+
+        span {
+            color: black;
+            display: block;
+            font-size: .35em;
+            font-weight: 400;
+        }
+    }
+}
+
+.geolacasia {
+    width: 100%;
+    height: 460px;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    margin-top: 50px;
+}
+
+.geolacasia h2 {
+    font-family: "Marck Script", cursive;
+    font-weight: 600;
+}
+
+.maps {
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+}
+
+.rim img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mapsss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 7px;
+}
+
+.mapsss img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.galerea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* margin-top: 50px; */
+}
+
+.galerea h2 {
+    font-family: "Marck Script", cursive;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.galerea p {
+    font-family: "Lober", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.galerea button {
+    width: 150px;
+    height: 55px;
+    background-color: rgba(0, 10, 24, 0.55);
+    color: rgba(0, 10, 24, 0.55);
+    color: white;
+    border: none;
+    font-family: "Lober", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.text_co {
+    font-family: "Marck Script", cursive;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 75px;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+@media(max-width:690px) {
+    .block_time {
+        width: 300px;
+    }
+
+    #timer {
+        font-size: 30px;
+
+        div {
+            min-width: 50px;
+        }
+    }
+
+    .dosvad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .dosvad h2{
+        font-size: 25px;
+    }
+}
